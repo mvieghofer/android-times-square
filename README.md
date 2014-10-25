@@ -5,6 +5,7 @@ Standalone Android widget for picking a single date from a calendar view.
 
 ![Screenshot](timesSquareScreenshot.png)
 
+
 Usage
 -----
 
@@ -44,6 +45,7 @@ calendar.init(today, nextYear.getTime())
     .inMode(RANGE);
 ```
 
+
 Download
 --------
 
@@ -51,15 +53,19 @@ The latest version can be downloaded in [zip][zip] and referenced by your applic
 project.
 
 You can also depend on the library through Maven:
-
 ```xml
 <dependency>
     <groupId>com.squareup</groupId>
     <artifactId>android-times-square</artifactId>
-    <version>(insert latest version)</version>
+    <version>1.4.0</version>
     <type>apklib</type>
 </dependency>
 ```
+or Gradle:
+```groovy
+compile 'com.squareup:android-times-square:1.4.0@aar'
+```
+
 
 License
 -------
